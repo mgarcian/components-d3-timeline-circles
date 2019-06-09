@@ -1,0 +1,40 @@
+.pie-chart-label-text {
+    alignment-baseline: middle;
+    font-size: 14px;
+    font-family: arial,helvetica,"sans-serif";
+    fill: #393939;
+}
+.pie-chart-label-line {
+    stroke-width: 1;
+    stroke: #393939;
+}
+.pie-chart-toolTip {
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    background: none repeat scroll 0 0 white;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: -3px 3px 15px #888888;
+    color: black;
+    font: 12px sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.pie-chart-arc path {
+  stroke-width: 4;
+  stroke: #fff;
+
+}
+#next{
+  width: 300px;
+  margin:0 auto;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:25px;
+  text-align:center;
+  border: 1px solid;
+
+}
