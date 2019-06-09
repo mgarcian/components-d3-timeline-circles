@@ -1,0 +1,33 @@
+.label-text {
+    alignment-baseline: middle;
+    font-size: 14px;
+    font-family: arial,helvetica,"sans-serif";
+}
+.mini.chart-expand rect{
+    filter: grayscale(100%);
+}
+.mini.chart-expand rect.expand{
+    filter: none;
+}
+.no-pointer {
+    pointer-events: none;
+}
+.expand {
+    stroke: #e78700 ;
+    stroke-width:2px;
+}
+.red {
+    fill: rgb(255, 115, 115);
+}
+.red_decision{
+    fill: url(#Gradient);
+    stroke: rgb(255, 115, 115);
+}
+.green {
+    fill: rgb(46, 204, 64);
+}
+
+.yellow {
+    fill: #F3F781;
+    cursor: pointer;
+}
